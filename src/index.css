@@ -1,13 +1,127 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url(https://fonts.google.com/specimen/Acme?query=acme);
+@import url(https://fonts.google.com/specimen/Sofia+Sans?query=Sofia+sans);
+@import url(https://fonts.google.com/specimen/Poppins?query=Poppins);
+@import url(https://fonts.googleapis.com/css2?family=Acme&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@100&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    background-size: 1920px 1080px;
+    background-blend-mode:normal
+}
+body{
+    background-color: #F4A764;
+}
+.Logo{
+    margin-top: -50px;
+    float: left;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header ul.Navigation{
+  
+    list-style: none;
+    margin-left: 20px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 }
+
+header ul.Navigation li{
+    display: inline;
+    margin-left: 50px ;
+    cursor: pointer;
+    
+}
+.NavRight{
+    margin-top: 40px;
+    margin-right: 50px;
+    float: right;
+   
+}
+.NavLeft{
+    margin-top: 40px;
+    float: left;
+    
+}
+
+.Navigation{
+    display: block;
+}
+footer{
+text-align: center;
+margin-bottom: 10px;
+}
+.Navigation li {
+    font-size: 24px;
+    font-family: Poppins;    
+  }
+
+
+main{
+    padding-top: 25px; 
+    display: flex;
+    width: 94%;
+    margin-left: 3%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .item{
+    width: 30%;
+    margin-bottom: 50px;
+    background-color: #0302022f;
+    overflow: hidden;
+
+}
+
+main .item img
+{
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+    width: 95%;
+    border-radius: 10px 10px 0 0;
+
+}
+
+main h2, main p {
+    margin: 10px 20px;
+    color: rgb(255, 255, 255); 
+    text-align: center;
+
+}
+pp{
+    z-index: 5;
+    background-color: #F4A764;
+    width: 100%;
+    height: 100%;
+}
+
+Link{
+    text-decoration:none;
+}
+a{
+    text-decoration:none;  
+    color:black;
+}
+
+.ContactUSTop{
+    font-size: 96px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.ContactUSDown{
+    margin-top: 80px;
+    font-size: 64px;
+    font-family: 'Acme', sans-serif;
+}
+
+.ContactUs{
+    
+    padding-left: 120px;
+}
+
+
