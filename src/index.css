@@ -1,9 +1,5 @@
-@import url(https://fonts.google.com/specimen/Acme?query=acme);
-@import url(https://fonts.google.com/specimen/Sofia+Sans?query=Sofia+sans);
-@import url(https://fonts.google.com/specimen/Poppins?query=Poppins);
-@import url(https://fonts.googleapis.com/css2?family=Acme&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@100&display=swap);
 
+@import url(https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@700&family=Sofia+Sans:wght@900&display=swap);
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +16,7 @@ body{
 }
 
 header ul.Navigation{
-  
+  width: 100%;
     list-style: none;
     margin-left: 20px;
     margin-block-start: 0em;
@@ -28,7 +24,7 @@ header ul.Navigation{
 }
 
 header ul.Navigation li{
-    display: inline;
+    display: flex;
     margin-left: 50px ;
     cursor: pointer;
     
@@ -37,21 +33,16 @@ header ul.Navigation li{
     margin-top: 40px;
     margin-right: 50px;
     float: right;
+    display: flex;
+    justify-content: flex-end;
    
 }
 .NavLeft{
     margin-top: 40px;
     float: left;
-    
+    display: flex;
 }
 
-.Navigation{
-    display: block;
-}
-footer{
-text-align: center;
-margin-bottom: 10px;
-}
 .Navigation li {
     font-size: 24px;
     font-family: Poppins;    
@@ -59,7 +50,7 @@ margin-bottom: 10px;
 
 
 main{
-    padding-top: 25px; 
+   
     display: flex;
     width: 94%;
     margin-left: 3%;
@@ -68,8 +59,8 @@ main{
 }
 
 main .item{
-    width: 30%;
-    margin-bottom: 50px;
+    
+    width: 100%;
     background-color: #0302022f;
     overflow: hidden;
 
@@ -83,21 +74,17 @@ main .item img
       margin-top: 10px;
     width: 95%;
     border-radius: 10px 10px 0 0;
-
+    
 }
 
 main h2, main p {
     margin: 10px 20px;
     color: rgb(255, 255, 255); 
     text-align: center;
+    
 
 }
-pp{
-    z-index: 5;
-    background-color: #F4A764;
-    width: 100%;
-    height: 100%;
-}
+
 
 Link{
     text-decoration:none;
@@ -124,4 +111,95 @@ a{
     padding-left: 120px;
 }
 
+.AboutUs{
+    padding-top: 200px;
+    padding-left: 20px;
+}
+.AboutUsText{
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;
+    width: 1877;
+    height: 417;
 
+}
+
+.TovarButton{
+    background-color:#d2a885 ;
+    margin-top: 25px;
+    border: 0cm;
+    cursor: pointer;
+}
+ 
+.PageItem{
+    
+    display: flex;
+    width: 850px;
+    height: 520px;
+    
+}
+.TextItemPage{
+    display: flex;
+    width: 520px;
+    height: 230px;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+.NameItemPage{
+    width: 539px;
+    height: 116px;
+    font-size:62px;
+    font-family: 'Sofia Sans', sans-serif;
+    color: rgb(252, 248, 248);
+    display: flex;
+}
+
+.PriceItemPage{
+    display: flex;
+    width: 340px;
+    height: 96px;
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+
+    color: rgb(252, 248, 248);
+}
+header{
+    display: flex;
+}
+.TextDiv{
+    margin-top: 120px;
+    margin-left: 174px;
+}
+.PageItem2{
+    margin-top: 10px;
+    width: 40%;
+    height: 230px;
+    transition: transform 500ms ease;
+}
+
+.ImagesPageItem{
+
+    margin-right: 123px;
+    display: flex;
+    float: right;
+    width: 860px;
+    height: 780px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.PageItem2:hover{
+    transform: scale(1.17);
+}
+
+.TovarButtonPage{
+    height: 78px;
+    width: 508px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: red;
+}
+.TovarButtonText{
+    color: white;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 44px;
+    cursor: pointer;
+}
