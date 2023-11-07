@@ -11,27 +11,21 @@ class ListItems extends React.Component {
         {
           id: 1,
           img: 'image1.png',
-          name: 'Blablabla',
-          price: '500 000P',
+          name: 'KTM 250 SX F 2020',
+          price: '1 369 900P',
         },
         {
           id: 2,
-          img: 'image1.png',
-          name: 'Blablabla',
-          price: '500 000P',
+          img: 'image4.png',
+          name: '1290 SUPER ADV R',
+          price: '2 599 900P',
         },
         {
           id: 3,
-          img: 'image1.png',
-          name: 'Blablabla',
-          price: '500 000P',
+          img: 'image9.png',
+          name: '690 ENDURO R',
+          price: '1 499 900P',
         },
-        {
-          id: 4,
-          img: 'image1.png',
-          name: 'Blablabla',
-          price: '500 000P',
-        }
       ]
     };
   }
