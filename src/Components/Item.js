@@ -8,7 +8,6 @@
                 <h2>{this.props.item.name}</h2>
                 <h2>{this.props.item.price}</h2>
             </div>
-
         )
       }
     }

@@ -19,20 +19,21 @@ function ItemDetail(props) {
         <img className='PageItem2' src={selectedItem.img3} alt={selectedItem.alt3} />
         </div>
         <div className='TextDiv'>
-
-      <h1 className='NameItemPage'>{selectedItem.name}</h1>
-      
+      <h1 className='NameItemPage'>{selectedItem.name}</h1> 
       <p className='TextItemPage'>{selectedItem.text}</p>
       <p className='PriceItemPage'>{selectedItem.price}</p>
-      
       <Link to={'/PageItem'} >  
       <button className='TovarButtonPage'>
         <text className='TovarButtonText'> Связаться для заказа</text>
       </button>
       </Link>
-     
+      
     </div>
+    <div className='TechnicalСharacteristics'>
+    <p className='TechnicalСharacteristicstext' dangerouslySetInnerHTML={{__html: selectedItem.TCH}}></p>
     </div>
+      </div>
+  
   );
 }
 

@@ -4,12 +4,16 @@
     margin: 0;
     padding: 0;
     
-    background-size: 1920px 1080px;
+    background-size: 1920px 3080px;
     background-blend-mode:normal
 }
 body{
-    background-color: #F4A764;
+    /*background-color: #F4A764;*/
+    background-image: linear-gradient(to bottom , #F4A764, white);
+    
 }
+
+/**/
 .Logo{
     margin-top: -50px;
     float: left;
@@ -63,17 +67,18 @@ main .item{
     width: 100%;
     background-color: #0302022f;
     overflow: hidden;
-
+    border-radius: 10px 10px 10px 10px;
 }
 
 main .item img
 {
     display: block;
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 10px;
+      margin-right: 10px;
       margin-top: 10px;
-    width: 95%;
-    border-radius: 10px 10px 0 0;
+    width: 522px;
+    height: 426px;
+    border-radius: 10px 10px 10px 10px;
     
 }
 
@@ -95,6 +100,7 @@ a{
 }
 
 .ContactUSTop{
+    margin-top: 50px;
     font-size: 96px;
     font-family: 'Poppins', sans-serif;
     
@@ -128,6 +134,7 @@ a{
     margin-top: 25px;
     border: 0cm;
     cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
 }
  
 .PageItem{
@@ -135,6 +142,7 @@ a{
     display: flex;
     width: 850px;
     height: 520px;
+    border-radius: 20px 20px 20px 20px;
     
 }
 .TextItemPage{
@@ -159,7 +167,6 @@ a{
     height: 96px;
     font-size: 70px;
     font-family: 'Poppins', sans-serif;
-
     color: rgb(252, 248, 248);
 }
 header{
@@ -174,6 +181,7 @@ header{
     width: 40%;
     height: 230px;
     transition: transform 500ms ease;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .ImagesPageItem{
@@ -246,3 +254,14 @@ header{
     top: 30%;
     font-size: 90px;
 }
+.TechnicalСharacteristicstext{
+    font-size: 28px;
+    margin-top: 200px;
+    color: black;
+    margin-left: 100px;
+}
+
+.TechnicalСharacteristics{
+    margin-left: 75px;
+}
+

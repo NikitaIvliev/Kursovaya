@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../Components/Header";
-import Footer from "../Components/Footer";
 import ItemVisibility from "../Components/ItemVisibility";
 
 class ListItems extends React.Component {
@@ -29,16 +28,13 @@ class ListItems extends React.Component {
       ]
     };
   }
-
   render() {
     return (
       <div className="wrapper">
         <Header />
         <ItemVisibility items={this.state.items} />
-        <Footer />
       </div>
     );
-  }
-}
+  }}
 
 export default ListItems;
